@@ -1,4 +1,4 @@
-name: Build Winter Arc APK
+
 
 on:
   workflow_dispatch:
@@ -22,3 +22,5 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: gradle
+
+    
